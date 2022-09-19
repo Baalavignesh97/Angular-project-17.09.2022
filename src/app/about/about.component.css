@@ -1,0 +1,43 @@
+
+*{
+    padding: 10px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.about-layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(100px);
+    gap: 5rem;
+    padding: 15px;
+    align-items: center;
+
+
+}
+
+img{
+    width: 100%;
+    transition: transform .6s;
+
+}
+img:hover{
+    transform: scale(1.1)  ;
+}
+p{
+    padding: 18px;
+    transition: transform .6s;
+
+}
+p:hover{
+    color: rgb(215, 67, 151);
+    transform: scale(1.1)  ;
+}
+iframe{
+    padding: 10px;
+    transition: transform .3s;
+
+}
+iframe:hover{
+    transform: scale(1.1)  ;
+
+}
